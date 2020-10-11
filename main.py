@@ -74,3 +74,13 @@ def fechaValida(d,m,aaaa):
 print(fechaValida(29,2,2020))
 print(fechaValida(32,3,2020))
 print(fechaValida(24,9,2020))
+
+def Mayusculas(cadena):
+    res=""
+    for i in cadena:
+        if i.isupper():
+            res="".join([res, i])
+    return res
+
+
+print(Mayusculas("Universal Serial Bus"))
